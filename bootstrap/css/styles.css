@@ -1,0 +1,106 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.title {
+  color: #00417B;
+  text-align: center;
+  font-weight: normal;
+}
+
+.highlighted-text {
+  color: #00417B;
+}
+
+header {
+  background: url(../img/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+}
+
+.nav-link:hover,
+.navbar-brand:hover {
+  opacity: 0.85;
+}
+
+.front__container {
+  width: 50%;
+  max-width: 500px;
+  margin-top: 125px;
+}
+
+.social-media__icon {
+  color: #fff;
+}
+
+.social-media__icon:hover {
+  color: #278de5;
+}
+
+.photo__container {
+  width: 150px;
+  height: 150px;
+  margin-top: -75px;
+}
+
+.profile__photo {
+  border-radius: 50%;
+}
+
+.work {
+  background: #f3f3f3;
+}
+
+.form__content input[type=text],
+.form__content input[type=email],
+.form__content textarea {
+  border: #CECECE 3px solid;
+  border-radius: 5px;
+  padding-left: 12px;
+  font-weight: normal;
+}
+
+.form__content input[type=text],
+.form__content input[type=email] {
+  height: 50px;
+}
+
+.form__content textarea {
+  min-height: 120px;
+  max-height: 300px;
+  max-width: 100%;
+  min-width: 100%;
+  padding: 12px;
+}
+
+.form__content input::placeholder,
+.form__content textarea::placeholder {
+  color: #A4A4A4;
+}
+
+.form__content .button {
+  width: 150px;
+  height: 50px;
+  background: #00417B;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form__content .button:hover {
+  background: #207DCE;
+  color: #fff;
+}
+
+footer {
+  background: #00417B;
+}
+
+.copyright:hover {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=styles.css.map */
