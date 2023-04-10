@@ -1,5 +1,6 @@
 body {
   font-family: "Open Sans", sans-serif;
+  padding-top: 56px;
 }
 
 .title {
@@ -14,10 +15,11 @@ body {
 
 header {
   background: url(../img/background.png);
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
   height: 600px;
+  overflow: hidden;
 }
 
 .nav-link:hover,
@@ -28,7 +30,7 @@ header {
 .front__container {
   width: 50%;
   max-width: 500px;
-  margin-top: 125px;
+  padding-top: 125px;
 }
 
 .social-media__icon {
@@ -75,6 +77,7 @@ header {
   padding: 12px;
 }
 
+.form__label,
 .form__content input::placeholder,
 .form__content textarea::placeholder {
   color: #A4A4A4;
@@ -99,7 +102,7 @@ footer {
   background: #00417B;
 }
 
-.copyright:hover {
+.copyright a:hover {
   text-decoration: underline;
 }
 

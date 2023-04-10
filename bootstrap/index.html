@@ -26,7 +26,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-tranparent">
+        <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="#">Home</a>
                 <button class="navbar-toggler d-lg-none" type="button" 
@@ -53,22 +53,22 @@
                 </div>
             </div>
         </nav>
-
-        <div class="front__container container border border-3 rounded-5 p-4">
-            <div class="row justify-content-center align-items-center g-2">
-                <div class="col-12">
-                    <h1 class="display-5 fw-normal text-center text-white">Nicolás Baquero</h1>
-                    <p class="fs-3 fw-light text-center text-white">Software Engineering Student</p>
-                    <div class="social-media__container text-center">
-                        <a class="social-media__icon fs-2 mx-2" href="https://www.twitter.com/cheveniko" target="_blank"><i class="fa-brands fa-twitter"></i></a>
-                        <a class="social-media__icon fs-2 mx-2" href="https://www.linkedin.com/in/nicolas-baquero" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                        <a class="social-media__icon fs-2 mx-2" href="https://github.com/Cheveniko" target="_blank"><i class="fa-brands fa-github"></i></a>
-                        <a class="social-media__icon fs-2 mx-2" href="mailto:nicolas.baquero@icloud.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+        <div class="front__container mx-auto">
+            <div class="container">
+                <div class="row justify-content-center border border-3 rounded-5 p-4 g-2 mx-auto">
+                    <div class="col-12">
+                        <h1 class="display-5 fw-normal text-center text-white">Nicolás Baquero</h1>
+                        <p class="fs-3 fw-light text-center text-white">Software Engineering Student</p>
+                        <div class="social-media__container text-center">
+                            <a class="social-media__icon fs-2 mx-2" href="https://www.twitter.com/cheveniko" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                            <a class="social-media__icon fs-2 mx-2" href="https://www.linkedin.com/in/nicolas-baquero" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                            <a class="social-media__icon fs-2 mx-2" href="https://github.com/Cheveniko" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a class="social-media__icon fs-2 mx-2" href="mailto:nicolas.baquero@icloud.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-
     </header>
 
     <main>
@@ -91,7 +91,8 @@
                             <br>
                             I like to always be learning new skills to be able to count with a variety of knowledge on all of the fields of software engineering.
                             <br>
-                            I'm currently learning web development using Bootstrap 5, Javascript and Jquery and also app development with Flutter and Dart.
+                            I'm currently learning front-end web development using Bootstrap 5, Javascript and Jquery, back-end web development with 
+                            Flask framework and also app development with Flutter and Dart.
                         </p>
                     </div>
                 </div>
@@ -149,30 +150,33 @@
             <div class="container form__content">
                 <div class="row justify-content-between align-items-center g-2 mx-0 mx-xl-5 px-0 px-xl-5">
                     <div class="col-12 col-sm-6">
-                        <div class="mb-3">
+                        <div class="form-floating mb-3">
                             <input
                                 type="text"
                                 class="form-control" name="name" id="name" placeholder="Name"
                             >
+                            <label class="form__label" for="name">Name</label>
                         </div>
                     </div>
                     <div class="col-12 col-sm-6">
-                        <div class="mb-3">
+                        <div class="form-floating mb-3">
                             <input
                                 type="email"
                                 class="form-control" name="email" id="email" placeholder="Email"
                             >
+                            <label class="form__label" for="email">Email</label>
                         </div>
                     </div>
                 </div>
                 <div class="row justify-content-center align-items-center g-2 mx-0 mx-xl-5 px-0 px-xl-5">
                     <div class="col-12">
-                        <div class="mb-3">
+                        <div class="form-floating mb-4">
                           <textarea class="form-control" name="message" id="message" placeholder="Message"></textarea>
+                          <label class="form__label" for="message">Message</label>
                         </div>
                     </div>
                 </div>
-                <div class="row justify-content-center align-items-center g-2 text-center mb-3">
+                <div class="row justify-content-center align-items-center g-2 text-center mb-4">
                     <div class="col">
                         <input class="button btn btn-lg" type="submit" value="Send">
                     </div>
@@ -190,7 +194,9 @@
                         <a class="social-media__icon fs-2 mx-4" href="https://github.com/Cheveniko" target="_blank"><i class="fa-brands fa-github"></i></a>
                         <a class="social-media__icon fs-2 mx-4" href="mailto:nicolas.baquero@icloud.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
                     </div>
-                    <a class="copyright d-block text-center text-white text-decoration-none" href="https://www.nicolasbaquero.com" target="_blank">© Nicolás Baquero 2023</a>
+                    <div class="copyright text-center">
+                        <a class="text-white text-decoration-none" href="https://www.nicolasbaquero.com" target="_blank">© Nicolás Baquero 2023</a>
+                    </div>
                 </div>
             </div>
         </div>

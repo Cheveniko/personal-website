@@ -1,11 +1,11 @@
 header {
     background: url(../img/background.png);
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     height: 600px;
+    overflow: hidden;
 }
-
 .nav-link:hover,
 .navbar-brand:hover {
     opacity: 0.85;
@@ -14,7 +14,7 @@ header {
 .front__container {
     width: 50%;
     max-width: 500px;
-    margin-top: 125px;
+    padding-top: 125px;
 }
 
 .social-media__icon {color: #fff;}
